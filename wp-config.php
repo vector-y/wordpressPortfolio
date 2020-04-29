@@ -18,6 +18,9 @@
  * @package WordPress
  */
 
+ini_set('max_execution_time', '300'); //300 seconds = 5 minutes
+ini_set('max_execution_time', '0'); // for infinite time of execution
+
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
 define( 'DB_NAME', 'wordpressportfolio_db' );
